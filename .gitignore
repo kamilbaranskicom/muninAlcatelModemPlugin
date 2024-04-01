@@ -1,2 +1,3 @@
 # ignore the file with actual key.
 alcatelConfig.php
+log/*
