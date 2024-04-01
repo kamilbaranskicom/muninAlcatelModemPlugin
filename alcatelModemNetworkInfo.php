@@ -15,11 +15,11 @@ $PLUGINID = strtr($PLUGINNAME, array(' ' => ''));
 sendMuninResponse(
     getAlcatelDataFromApi($alcatelModemUrl, 'GetNetworkInfo', $key),
     array(
-        'CellId',
+        // 'CellId',    // these don't look good on Munin graph
         'SINR',
         'RSRP',
         'RSSI',
-        'eNBID',
+        // 'eNBID',
         'RSRQ',
         'EcIo',
         'RSCP'
