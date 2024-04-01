@@ -13,7 +13,7 @@
 * have fun! (Use munin's Limit low/high for better visuality.)
 * add optional cron entry to log CellID changes (adjust paths to your install location and frequency to your taste)
 ```
-1 * * * * echo "`date +\%Y\%m\%d-%H\%M` - `/var/www/html/alcatelmodem/alcatelModemLogCellID.php`" >> /var/www/html/alcatelmodem/log/alcatelModemLogCellID.log
+1 * * * * echo "`date +\%Y\%m\%d-\%H\%M` - `/var/www/html/alcatelmodem/alcatelModemLogCellID.php`" >> /var/www/html/alcatelmodem/log/alcatelModemLogCellID.log
 ```
 
 ## Sample screenshots:
